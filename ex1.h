@@ -1,12 +1,12 @@
 #ifndef DATE
-#define DATE 
+#define DATE
 
-typedef struct _Date{
+typedef struct _Date {
     int x;
     int y;
     int z;
 } Date;
-Date *create_date(int a,int b, int c);
+Date *create_date(int a, int b, int c);
 void print_date(Date *d);
 
 #endif
