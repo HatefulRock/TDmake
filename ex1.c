@@ -22,7 +22,7 @@ int main(){
     d->z=1998;
 
     Date *q=create_date(1,10,1999);
-    print_date(d);
+    //print_date(d);
 }
 
 
